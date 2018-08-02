@@ -1,0 +1,139 @@
+
+body{
+  background-color: #faf8ef;
+}
+
+#root{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#title{
+  width: 100%;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+#top-container{
+  width: 100%;
+  overflow: hidden;
+}
+
+#new-game{
+  height: inherit;
+  float: left;
+  width: 50%;
+  font-size: 30px;
+  font-weight: bold;
+}
+#new-game span{
+  cursor: pointer;
+  background-color: #8f7a66;
+  padding: 2px 10px;
+  color: #eee4da;
+  border-radius: 5px;
+}
+
+#score-container{
+  overflow: hidden;
+  float: left;
+  width: 50%;
+}
+
+#score-board{
+  font-size: 20px;
+  font-weight: bold;
+  color: #eee4da;
+  background-color: #bbada0;
+  width: 80px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#score-title{
+  display: block;
+}
+
+#current-score{
+  color: white;
+  display: block;
+}
+
+#game-over{
+  font-size: 50px;
+  font-weight: bold;
+  display: none;
+}
+#game-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: #bbada0;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#game-container div{
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  height: 112.5px;
+  width: 112.5px;
+  line-height: 112.5px;
+}
+
+.cell-0{
+  color: #cbc1b4;
+  background-color: #cec1b4;
+}
+.cell-2{
+  color: black;
+  background-color: #eee4da;
+}
+.cell-4{
+  color: black;
+  background-color: #ede0c8;
+}
+.cell-8{
+  color: #f9f6f2;
+  background-color: #f2b179;
+}
+.cell-16{
+  color: #f9f6f2;
+  background-color: #f59563;
+}
+.cell-32{
+  color: #f9f6f2;
+  background-color: #f67c5f;
+}
+.cell-64{
+  color: #f9f6f2;
+  background-color: #f65e3b;
+}
+.cell-128{
+  color: #f9f6f2;
+  background-color: #edcf72;
+}
+.cell-256{
+  color: #f9f6f2;
+  background-color: #edcc61;
+}
+.cell-512{
+  color: #f9f6f2;
+  background-color: #edc850;
+}
+.cell-1024{
+  color: #f9f6f2;
+  background-color: #edc53f;
+}
+.cell-2048{
+  color: #f9f6f2;
+  background-color: #edc22e;
+}
+.cell-extra{
+  color: #f9f6f2;
+  background-color: #3c3a32;
+}
